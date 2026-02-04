@@ -1,247 +1,922 @@
-[04Feb2026 14:36:33.465] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.5.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[04Feb2026 14:36:33.470] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 25.0.1 by Microsoft; OS Linux arch amd64 version 6.8.0-1030-azure
-[04Feb2026 14:36:33.624] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mc-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2364!/ Service=ModLauncher Env=SERVER
-[04Feb2026 14:36:33.985] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-server/libraries/net/minecraftforge/fmlcore/1.19.2-43.5.0/fmlcore-1.19.2-43.5.0.jar is missing mods.toml file
-[04Feb2026 14:36:33.990] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-server/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.5.0/javafmllanguage-1.19.2-43.5.0.jar is missing mods.toml file
-[04Feb2026 14:36:33.991] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-server/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.5.0/lowcodelanguage-1.19.2-43.5.0.jar is missing mods.toml file
-[04Feb2026 14:36:33.995] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-server/libraries/net/minecraftforge/mclanguage/1.19.2-43.5.0/mclanguage-1.19.2-43.5.0.jar is missing mods.toml file
-[04Feb2026 14:36:34.145] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[04Feb2026 14:36:36.398] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[04Feb2026 14:36:42.163] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[04Feb2026 14:36:45.628] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.5.0, for MC 1.19.2 with MCP 20220805.130853
-[04Feb2026 14:36:45.637] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.5.0 Initialized
-[04Feb2026 14:36:46.446] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/mc-server/config/forge-common.toml is not correct. Correcting
-[04Feb2026 14:36:46.449] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[04Feb2026 14:36:46.450] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cachePackAccess was corrected from null to its default, true. 
-[04Feb2026 14:36:46.453] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false. 
-[04Feb2026 14:36:46.454] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false. 
-[04Feb2026 14:36:46.899] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04Feb2026 14:36:47.910] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.5.0 Target: null
-[04Feb2026 14:36:48.583] [main/ERROR] [net.minecraft.server.dedicated.Settings/]: Failed to load properties from file: server.properties
-[04Feb2026 14:36:48.643] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04Feb2026 14:36:48.693] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/mc-server/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23100!/assets/.mcassetsroot' uses unexpected schema
-[04Feb2026 14:36:48.693] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/mc-server/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23100!/data/.mcassetsroot' uses unexpected schema
-[04Feb2026 14:36:52.664] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[04Feb2026 14:36:53.492] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
-[04Feb2026 14:36:54.234] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[04Feb2026 14:36:54.236] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[04Feb2026 14:36:54.237] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[04Feb2026 14:36:54.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04Feb2026 14:36:54.553] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[04Feb2026 14:36:54.588] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[04Feb2026 14:36:54.800] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[04Feb2026 14:36:54.801] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[04Feb2026 14:36:54.802] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[04Feb2026 14:36:54.803] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[04Feb2026 14:36:54.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[04Feb2026 14:36:54.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[04Feb2026 14:36:54.805] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[04Feb2026 14:36:54.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
-[04Feb2026 14:36:54.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[04Feb2026 14:36:54.807] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
-[04Feb2026 14:36:54.873] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[04Feb2026 14:37:21.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04Feb2026 14:37:23.671] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:23.675] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:23.676] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:23.677] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:23.695] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:24.374] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:24.739] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:25.164] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:25.863] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:26.135] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:26.566] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:27.083] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:27.614] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:28.134] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:28.574] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:29.067] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:29.650] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:30.086] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:30.683] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:31.086] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:31.619] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:32.068] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:32.629] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:33.092] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:33.566] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:34.069] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:34.655] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:35.087] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:35.601] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:36.089] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:36.572] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:37.068] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:37.633] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:38.128] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:38.576] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:39.163] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:39.566] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:40.087] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:40.601] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:41.134] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:41.626] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:42.099] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:42.566] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:43.181] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:43.590] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:44.081] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:44.570] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:45.116] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:45.589] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:46.162] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:46.566] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:47.074] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:47.614] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:48.086] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:48.607] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:49.067] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:49.567] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:50.118] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:50.598] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:51.082] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:51.594] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:52.100] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:52.594] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:53.175] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:53.586] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:54.095] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:54.605] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:55.075] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:55.572] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:56.106] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:56.614] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:57.080] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:57.579] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:58.070] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:58.576] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:59.089] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:37:59.566] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:00.104] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:00.574] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:01.111] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:01.591] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:02.097] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:02.594] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:03.072] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:03.610] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:04.071] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:04.570] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:05.110] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:05.594] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:06.081] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:06.619] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:07.155] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:07.650] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:08.178] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:08.592] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:09.109] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:09.596] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:10.113] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:10.568] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:11.073] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:11.571] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:12.067] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:12.569] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:13.092] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:13.650] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:14.066] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:14.610] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:15.068] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:15.636] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:16.083] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:16.574] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Feb2026 14:38:17.080] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[04Feb2026 14:38:17.639] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[04Feb2026 14:38:18.086] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[04Feb2026 14:38:18.805] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[04Feb2026 14:38:19.071] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[04Feb2026 14:38:19.596] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
-[04Feb2026 14:38:20.066] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[04Feb2026 14:38:20.566] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[04Feb2026 14:38:21.106] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[04Feb2026 14:38:21.568] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[04Feb2026 14:38:22.092] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[04Feb2026 14:38:22.566] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[04Feb2026 14:38:23.077] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[04Feb2026 14:38:23.571] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[04Feb2026 14:38:24.066] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
-[04Feb2026 14:38:24.573] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[04Feb2026 14:38:25.140] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
-[04Feb2026 14:38:25.706] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[04Feb2026 14:38:26.133] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[04Feb2026 14:38:26.576] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[04Feb2026 14:38:27.073] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[04Feb2026 14:38:27.570] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[04Feb2026 14:38:28.097] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
-[04Feb2026 14:38:28.580] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[04Feb2026 14:38:30.195] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
-[04Feb2026 14:38:30.251] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
-[04Feb2026 14:38:30.252] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
-[04Feb2026 14:38:30.573] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[04Feb2026 14:38:31.072] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[04Feb2026 14:38:31.602] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[04Feb2026 14:38:32.068] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[04Feb2026 14:38:32.593] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[04Feb2026 14:38:33.118] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
-[04Feb2026 14:38:33.750] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[04Feb2026 14:38:34.077] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[04Feb2026 14:38:34.595] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[04Feb2026 14:38:35.104] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
-[04Feb2026 14:38:35.660] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
-[04Feb2026 14:38:36.071] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[04Feb2026 14:38:36.635] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[04Feb2026 14:38:37.111] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[04Feb2026 14:38:37.587] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
-[04Feb2026 14:38:38.069] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
-[04Feb2026 14:38:38.567] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
-[04Feb2026 14:38:39.069] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
-[04Feb2026 14:38:39.577] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
-[04Feb2026 14:38:40.082] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
-[04Feb2026 14:38:40.579] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[04Feb2026 14:38:41.066] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
-[04Feb2026 14:38:41.566] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
-[04Feb2026 14:38:42.085] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
-[04Feb2026 14:38:42.646] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[04Feb2026 14:38:43.066] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[04Feb2026 14:38:43.597] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[04Feb2026 14:38:44.076] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[04Feb2026 14:38:44.582] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[04Feb2026 14:38:45.080] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[04Feb2026 14:38:45.606] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[04Feb2026 14:38:46.071] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[04Feb2026 14:38:46.611] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[04Feb2026 14:38:47.068] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[04Feb2026 14:38:47.649] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[04Feb2026 14:38:48.068] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[04Feb2026 14:38:48.581] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[04Feb2026 14:38:49.107] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[04Feb2026 14:38:49.607] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[04Feb2026 14:38:50.085] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[04Feb2026 14:38:50.607] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[04Feb2026 14:38:51.099] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
-[04Feb2026 14:38:51.568] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
-[04Feb2026 14:38:52.068] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
-[04Feb2026 14:38:52.572] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
-[04Feb2026 14:38:53.082] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
-[04Feb2026 14:38:53.584] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[04Feb2026 14:38:54.113] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[04Feb2026 14:38:54.712] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[04Feb2026 14:38:54.765] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 93201 ms
-[04Feb2026 14:38:54.766] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (119.974s)! For help, type "help"
-[04Feb2026 14:38:54.777] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[04Feb2026 14:40:30.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hello
-[04Feb2026 14:40:36.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[04Feb2026 14:40:36.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: close<--[HERE]
-[04Feb2026 14:41:04.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[04Feb2026 14:41:04.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[04Feb2026 14:41:04.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[04Feb2026 14:41:04.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[04Feb2026 14:41:06.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04Feb2026 14:41:08.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[04Feb2026 14:41:08.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[04Feb2026 14:41:08.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04Feb2026 14:41:08.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04Feb2026 14:41:08.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04Feb2026 14:41:08.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04Feb2026 15:16:15.002] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.5.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[04Feb2026 15:16:15.012] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[04Feb2026 15:16:17.309] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mc-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2364!/ Service=ModLauncher Env=SERVER
+[04Feb2026 15:16:17.424] [main/WARN] [CrashAssistantJarInJarHelper/]: launchTarget: forgeserver. Crash Assistant is client only mod. Mod will do nothing!
+[04Feb2026 15:16:18.358] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/mc-server/mods} returned 2 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[04Feb2026 15:16:18.538] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-server/libraries/net/minecraftforge/fmlcore/1.19.2-43.5.0/fmlcore-1.19.2-43.5.0.jar is missing mods.toml file
+[04Feb2026 15:16:18.540] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-server/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.5.0/javafmllanguage-1.19.2-43.5.0.jar is missing mods.toml file
+[04Feb2026 15:16:18.543] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-server/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.5.0/lowcodelanguage-1.19.2-43.5.0.jar is missing mods.toml file
+[04Feb2026 15:16:18.546] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-server/libraries/net/minecraftforge/mclanguage/1.19.2-43.5.0/mclanguage-1.19.2-43.5.0.jar is missing mods.toml file
+[04Feb2026 15:16:19.223] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[04Feb2026 15:16:19.224] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[04Feb2026 15:16:19.227] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 27 dependencies adding them to mods collection
+[04Feb2026 15:16:19.593] [main/INFO] [Configured Defaults/]: Applying default files...
+[04Feb2026 15:16:31.506] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Feb2026 15:16:31.761] [main/ERROR] [mixin/]: Mixin config portalsgui.mixins.json does not specify "minVersion" property
+[04Feb2026 15:16:32.257] [main/ERROR] [mixin/]: Mixin config necronomicon.forge.mixins.json does not specify "minVersion" property
+[04Feb2026 15:16:32.414] [main/ERROR] [mixin/]: Mixin config ryoamiclights.common.mixins.json does not specify "minVersion" property
+[04Feb2026 15:16:32.420] [main/ERROR] [mixin/]: Mixin config ryoamiclights.forge.mixins.json does not specify "minVersion" property
+[04Feb2026 15:16:32.516] [main/ERROR] [mixin/]: Mixin config obsidianui.forge.mixins.json does not specify "minVersion" property
+[04Feb2026 15:16:32.577] [main/ERROR] [mixin/]: Mixin config emi_loot-common.mixins.json does not specify "minVersion" property
+[04Feb2026 15:16:32.632] [main/ERROR] [mixin/]: Mixin config mixins.create_ca.json does not specify "minVersion" property
+[04Feb2026 15:16:32.914] [main/ERROR] [mixin/]: Mixin config geckoanimfix.forge.mixins.json does not specify "minVersion" property
+[04Feb2026 15:16:32.960] [main/ERROR] [mixin/]: Mixin config forge-projectiles-common.mixins.json does not specify "minVersion" property
+[04Feb2026 15:16:32.962] [main/ERROR] [mixin/]: Mixin config forge-projectiles.mixins.json does not specify "minVersion" property
+[04Feb2026 15:16:33.252] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.aizistral.nochatreports.MixinConnector]
+[04Feb2026 15:16:33.252] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[04Feb2026 15:16:33.289] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[04Feb2026 15:16:33.331] [main/WARN] [mixin/]: Reference map 'nerb-forge-refmap.json' for nerb.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:33.332] [main/WARN] [mixin/]: Reference map 'advancementframes-common-refmap.json' for advancementframes-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:33.336] [main/WARN] [mixin/]: Reference map 'advancementframes-forge-refmap.json' for advancementframes.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:33.520] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 1 override(s) found
+[04Feb2026 15:16:33.522] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.item_cache_flag' overriden (by mods [canary]) to 'false'
+[04Feb2026 15:16:33.523] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[04Feb2026 15:16:33.554] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[04Feb2026 15:16:33.611] [main/WARN] [mixin/]: Reference map 'labels-common-refmap.json' for labels-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:33.614] [main/WARN] [mixin/]: Reference map 'labels-forge-refmap.json' for labels.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:33.707] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:33.710] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:33.730] [main/WARN] [mixin/]: Reference map 'sizeshiftingpotions.refmap.json' for sizeshiftingpotions.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:33.736] [main/WARN] [mixin/]: Reference map 'sizeshiftingpotions.refmap.json' for sizeshiftingpotions.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:33.817] [main/WARN] [mixin/]: Reference map 'carpeted-common-refmap.json' for carpeted-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:33.821] [main/WARN] [mixin/]: Reference map 'carpeted-forge-refmap.json' for carpeted.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.159] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.295] [main/WARN] [CanaryConfig/]: Mod 'pluto' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[04Feb2026 15:16:34.313] [main/INFO] [Canary/]: Loaded configuration file for Canary: 117 options available, 0 override(s) found
+[04Feb2026 15:16:34.422] [main/WARN] [mixin/]: Reference map 'v_slab_compat-common-refmap.json' for v_slab_compat-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.484] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.485] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.692] [main/WARN] [mixin/]: Reference map 'createframed.refmap.json' for createframed.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.706] [main/WARN] [mixin/]: Reference map 'pandalib-common-common-refmap.json' for pandalib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.718] [main/WARN] [mixin/]: Reference map 'suppsquared-common-refmap.json' for suppsquared-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.723] [main/WARN] [mixin/]: Reference map 'suppsquared-forge-refmap.json' for suppsquared.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.743] [main/WARN] [mixin/]: Reference map 'create_crystal_clear.refmap.json' for create_crystal_clear.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.756] [main/INFO] [Sodium Extra Config/]: Loaded configuration file for Sodium Extra: 28 options available, 0 override(s) found
+[04Feb2026 15:16:34.796] [main/WARN] [mixin/]: Reference map 'Projectiles-forge-refmap.json' for forge-projectiles.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.809] [main/WARN] [mixin/]: Reference map 'randomium-common-refmap.json' for randomium-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.819] [main/WARN] [mixin/]: Reference map 'randomium-forge-refmap.json' for randomium.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.854] [main/WARN] [mixin/]: Reference map 'torch_hit.refmap.json' for torch_hit.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.856] [main/WARN] [mixin/]: Reference map 'torch_hit.refmap.json' for torch_hit.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.894] [main/WARN] [mixin/]: Reference map 'placement_plus.refmap.json' for placement_plus.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.911] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Feb2026 15:16:34.962] [main/INFO] [BadOptimizations/]: Loading config from /workspaces/mc-server/config/badoptimizations.txt
+[04Feb2026 15:16:34.963] [main/INFO] [BadOptimizations/]: Config version: 3
+[04Feb2026 15:16:34.964] [main/INFO] [BadOptimizations/]: BadOptimizations config dump:
+[04Feb2026 15:16:34.965] [main/INFO] [BadOptimizations/]: enable_toast_optimizations: true
+[04Feb2026 15:16:34.965] [main/INFO] [BadOptimizations/]: ignore_mod_incompatibilities: false
+[04Feb2026 15:16:34.965] [main/INFO] [BadOptimizations/]: lightmap_time_change_needed_for_update: 80
+[04Feb2026 15:16:34.966] [main/INFO] [BadOptimizations/]: enable_lightmap_caching: true
+[04Feb2026 15:16:34.966] [main/INFO] [BadOptimizations/]: enable_particle_manager_optimization: true
+[04Feb2026 15:16:34.967] [main/INFO] [BadOptimizations/]: enable_entity_renderer_caching: true
+[04Feb2026 15:16:34.967] [main/INFO] [BadOptimizations/]: log_config: true
+[04Feb2026 15:16:34.967] [main/INFO] [BadOptimizations/]: enable_remove_redundant_fov_calculations: true
+[04Feb2026 15:16:34.968] [main/INFO] [BadOptimizations/]: config_version: 3
+[04Feb2026 15:16:34.970] [main/INFO] [BadOptimizations/]: enable_sky_angle_caching_in_worldrenderer: true
+[04Feb2026 15:16:34.970] [main/INFO] [BadOptimizations/]: enable_block_entity_renderer_caching: true
+[04Feb2026 15:16:34.970] [main/INFO] [BadOptimizations/]: skycolor_time_change_needed_for_update: 3
+[04Feb2026 15:16:34.971] [main/INFO] [BadOptimizations/]: enable_entity_flag_caching: true
+[04Feb2026 15:16:34.971] [main/INFO] [BadOptimizations/]: enable_debug_renderer_disable_if_not_needed: true
+[04Feb2026 15:16:34.971] [main/INFO] [BadOptimizations/]: enable_sky_color_caching: true
+[04Feb2026 15:16:34.972] [main/INFO] [BadOptimizations/]: enable_remove_tutorial_if_not_demo: true
+[04Feb2026 15:16:34.972] [main/INFO] [BadOptimizations/]: show_f3_text: true
+[04Feb2026 15:16:35.004] [main/INFO] [dev.tonimatas.packetfixer.mixins.v1_19_forge.MixinPlugin/]: Packet Fixer forge 1.19-1.19.2 has been applied successfully.
+[04Feb2026 15:16:35.989] [main/WARN] [mixin/]: Error loading class: sereneseasons/handler/season/RandomUpdateHandler (java.lang.ClassNotFoundException: sereneseasons.handler.season.RandomUpdateHandler)
+[04Feb2026 15:16:35.994] [main/WARN] [mixin/]: @Mixin target sereneseasons.handler.season.RandomUpdateHandler was not found snowrealmagic.mixins.json:sereneseasons.RandomUpdateHandlerMixin
+[04Feb2026 15:16:36.127] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:36.128] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/resources/model/ModelBakery (java.lang.RuntimeException: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:36.128] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.resources.model.ModelBakery was not found lightspeed.mixins.json:model.ModelBakeryMixin
+[04Feb2026 15:16:36.273] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Feb2026 15:16:36.293] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Feb2026 15:16:36.434] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[04Feb2026 15:16:36.435] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
+[04Feb2026 15:16:37.243] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:37.243] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:37.243] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found findme-common.mixins.json:MixinSlotRenderer
+[04Feb2026 15:16:37.246] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleEngine for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:37.246] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/particle/ParticleEngine (java.lang.RuntimeException: Attempted to load class net/minecraft/client/particle/ParticleEngine for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:37.246] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.particle.ParticleEngine was not found findme-common.mixins.json:ParticleEngineAccessor
+[04Feb2026 15:16:37.541] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
+[04Feb2026 15:16:37.542] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
+[04Feb2026 15:16:37.544] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
+[04Feb2026 15:16:37.545] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
+[04Feb2026 15:16:37.553] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[04Feb2026 15:16:37.580] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:37.580] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/gui/AbstractSimiScreen (java.lang.RuntimeException: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:37.581] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.gui.AbstractSimiScreen was not found create_connected.mixins.json:sequencedgearshift.AbstractSimiScreenAccessor
+[04Feb2026 15:16:37.924] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:37.925] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:37.926] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer was not found citresewn.mixins.json:citarmor.ArmorFeatureRendererMixin
+[04Feb2026 15:16:37.926] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/layers/ElytraLayer for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:37.927] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ElytraLayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/layers/ElytraLayer for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:37.927] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ElytraLayer was not found citresewn.mixins.json:citelytra.ElytraFeatureRendererMixin
+[04Feb2026 15:16:37.928] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:37.928] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:37.929] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer was not found citresewn.mixins.json:citenchantment.ArmorFeatureRendererMixin
+[04Feb2026 15:16:37.932] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/RenderBuffers (java.lang.ClassNotFoundException: net.minecraft.client.renderer.RenderBuffers)
+[04Feb2026 15:16:37.933] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.RenderBuffers was not found citresewn.mixins.json:citenchantment.BufferBuilderStorageAccessor
+[04Feb2026 15:16:37.935] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/layers/ElytraLayer for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:37.936] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ElytraLayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/layers/ElytraLayer for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:37.936] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ElytraLayer was not found citresewn.mixins.json:citenchantment.ElytraFeatureRendererMixin
+[04Feb2026 15:16:37.937] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:37.937] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/ItemRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:37.937] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.ItemRenderer was not found citresewn.mixins.json:citenchantment.ItemRendererMixin
+[04Feb2026 15:16:37.941] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/RenderStateShard (java.lang.ClassNotFoundException: net.minecraft.client.renderer.RenderStateShard)
+[04Feb2026 15:16:37.941] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.RenderStateShard was not found citresewn.mixins.json:citenchantment.RenderPhaseAccessor
+[04Feb2026 15:16:38.052] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:38.052] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:38.053] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found citresewn.mixins.json:citenchantment.MinecraftClientMixin
+[04Feb2026 15:16:38.054] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:38.054] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/ItemRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:38.059] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.ItemRenderer was not found citresewn.mixins.json:cititem.ItemRendererMixin
+[04Feb2026 15:16:38.061] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/block/model/BlockModel for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:38.063] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/block/model/BlockModel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/block/model/BlockModel for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:38.065] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.block.model.BlockModel was not found citresewn.mixins.json:cititem.JsonUnbakedModelAccessor
+[04Feb2026 15:16:38.070] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:38.071] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/resources/model/ModelBakery (java.lang.RuntimeException: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:38.072] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.resources.model.ModelBakery was not found citresewn.mixins.json:cititem.ModelLoaderMixin
+[04Feb2026 15:16:38.075] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:38.078] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/resources/model/ModelBakery (java.lang.RuntimeException: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:38.078] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.resources.model.ModelBakery was not found citresewn.mixins.json:core.ModelLoaderMixin
+[04Feb2026 15:16:38.079] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/texture/TextureAtlas for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:38.082] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/texture/TextureAtlas (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/texture/TextureAtlas for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:38.082] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.texture.TextureAtlas was not found citresewn.mixins.json:core.SpriteAtlasTextureMixin
+[04Feb2026 15:16:38.348] [main/WARN] [mixin/]: Error loading class: earth/terrarium/botarium/forge/BotariumForge (java.lang.ClassNotFoundException: earth.terrarium.botarium.forge.BotariumForge)
+[04Feb2026 15:16:38.348] [main/WARN] [mixin/]: @Mixin target earth.terrarium.botarium.forge.BotariumForge was not found create_central_kitchen.mixins.json:common.botarium.BotariumForgeMixin
+[04Feb2026 15:16:38.350] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[04Feb2026 15:16:38.350] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found create_central_kitchen.mixins.json:common.brewinandchewin.KegBlockEntityMixin
+[04Feb2026 15:16:38.456] [main/WARN] [mixin/]: Error loading class: net/orcinus/overweightfarming/blocks/CropFullBlock (java.lang.ClassNotFoundException: net.orcinus.overweightfarming.blocks.CropFullBlock)
+[04Feb2026 15:16:38.458] [main/WARN] [mixin/]: @Mixin target net.orcinus.overweightfarming.blocks.CropFullBlock was not found create_central_kitchen.mixins.json:common.overweightfarming.CropFullBlockMixin
+[04Feb2026 15:16:38.508] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 2 memory leak fixes!
+[04Feb2026 15:16:38.511] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [entityMemoriesLeak, biomeTemperatureLeak]
+[04Feb2026 15:16:38.758] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/texture/TextureAtlas for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:38.759] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/texture/TextureAtlas (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/texture/TextureAtlas for invalid dist DEDICATED_SERVER)
+[04Feb2026 15:16:38.760] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.texture.TextureAtlas was not found fusion.mixins.json:modernfix.TextureAtlasMixinModernFix
+[04Feb2026 15:16:38.899] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/blockentity/BlockEntityRendererProvider$Context (java.lang.ClassNotFoundException: net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider$Context)
+[04Feb2026 15:16:38.902] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/blockentity/BlockEntityRendererProvider$Context (java.lang.ClassNotFoundException: net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider$Context)
+[04Feb2026 15:16:38.972] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[04Feb2026 15:16:39.351] [main/INFO] [mixin/]: Mixing server.MixinDedicatedServer from nochatreports.mixins.json into net.minecraft.server.dedicated.DedicatedServer
+[04Feb2026 15:16:39.664] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (28.00 s after launch)
+[04Feb2026 15:16:39.810] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Feb2026 15:16:39.811] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Feb2026 15:16:39.882] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Feb2026 15:16:39.883] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Feb2026 15:16:39.915] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on everycomp-common.mixins.json:LootTableHackMixin::handler$dgc000$everyCompat$addSimpleFastDrops exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04Feb2026 15:16:40.074] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[04Feb2026 15:16:40.075] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[04Feb2026 15:16:40.075] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into m_60823_ from com.abdelaziz.canary.mixin.block.flatten_states.BlockStateBaseMixin
+[04Feb2026 15:16:41.557] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on allurement.mixins.json:ItemEntityMixin::handler$dac000$getItemEnchantability exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04Feb2026 15:16:41.581] [main/INFO] [mixin/]: Mixing server.MixinPlayer from nochatreports.mixins.json into net.minecraft.world.entity.player.Player
+[04Feb2026 15:16:43.085] [main/INFO] [fluidlogged/]: Enforced 1 fluid(s)!
+[04Feb2026 15:16:43.087] [main/INFO] [fluidlogged/]: Locked 1 fluid(s)! Have fun :)
+[04Feb2026 15:16:43.307] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3637 milliseconds
+[04Feb2026 15:16:43.523] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientBoundCustomPayloadPacketLMixin->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer.v1_19.forge.mixins.json:v1_19_forge.ClientboundCustomPayloadPacketMixin->@ModifyConstant::packetfixer$newSize(I)I with priority 1000
+[04Feb2026 15:16:43.524] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientBoundCustomPayloadPacketLMixin->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer.v1_19.forge.mixins.json:v1_19_forge.ClientboundCustomPayloadPacketMixin->@ModifyConstant::packetfixer$newSize(I)I with priority 1000
+[04Feb2026 15:16:44.259] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Feb2026 15:16:44.263] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Feb2026 15:16:47.706] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[04Feb2026 15:16:49.900] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod easyanvils
+[04Feb2026 15:16:50.020] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for m_82944_ in suggestionproviderfix.mixins.json:SharedSuggestionProviderMixin, previously written by com.majruszlibrary.mixin.IMixinSharedSuggestionProvider. Skipping method.
+[04Feb2026 15:16:50.047] [modloading-worker-0/INFO] [mixin/]: Mixing server.MixinPlayerList from nochatreports.mixins.json into net.minecraft.server.players.PlayerList
+[04Feb2026 15:16:50.578] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: zume, class zume.b
+java.lang.NoClassDefFoundError: net/minecraft/client/CameraType
+	at zume.b.<init>(Unknown Source) ~[zume-1.1.4.jar%23659!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.19.2-43.5.0.jar%23663!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:124) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.CameraType
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 15 more
+[04Feb2026 15:16:50.897] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod blockrunner
+[04Feb2026 15:16:51.140] [modloading-worker-0/INFO] [realmayus.aquatictorches.AquaticTorches/]: Aquatic Torches loaded.
+[04Feb2026 15:16:51.329] [modloading-worker-0/INFO] [mixin/]: Mixing server.MixinServerGamePacketListenerImpl from nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
+[04Feb2026 15:16:51.473] [modloading-worker-0/INFO] [net.fabricmc.fabric.impl.client.indigo.Indigo/]: [Indigo] Registering Indigo renderer!
+[04Feb2026 15:16:51.480] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/RenderType for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:51.485] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: reforgium, class link.infra.indium.Indium
+java.lang.ExceptionInInitializerError: null
+	at net.fabricmc.fabric.impl.client.indigo.renderer.RenderMaterialImpl.<clinit>(RenderMaterialImpl.java:34) ~[reforgium-1.0.12a.jar%23595!/:?]
+	at net.fabricmc.fabric.impl.client.indigo.renderer.IndigoRenderer.materialFinder(IndigoRenderer.java:54) ~[reforgium-1.0.12a.jar%23595!/:?]
+	at net.fabricmc.fabric.impl.client.indigo.renderer.IndigoRenderer.<clinit>(IndigoRenderer.java:37) ~[reforgium-1.0.12a.jar%23595!/:?]
+	at net.fabricmc.fabric.impl.client.indigo.Indigo.init(Indigo.java:124) ~[reforgium-1.0.12a.jar%23595!/:?]
+	at link.infra.indium.Indium.<init>(Indium.java:121) ~[reforgium-1.0.12a.jar%23595!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.19.2-43.5.0.jar%23663!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:124) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/RenderType for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.5.0.jar%2373!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.fabricmc.fabric.api.renderer.v1.material.BlendMode.<clinit>(BlendMode.java:33) ~[reforgium-1.0.12a.jar%23595!/:?]
+	... 19 more
+[04Feb2026 15:16:51.545] [modloading-worker-0/INFO] [Create: Trading Floor/]: Create: Trading Floor initializing! Create version: 0.5.1f on platform: Forge
+[04Feb2026 15:16:51.546] [modloading-worker-0/INFO] [Create: Trading Floor/]: Registering all Create: Trading Floor entries
+[04Feb2026 15:16:51.550] [modloading-worker-0/INFO] [Create: Trading Floor/]: Registering Particle Emitters for: Create: Trading Floor
+[04Feb2026 15:16:51.560] [modloading-worker-0/INFO] [Create: Trading Floor/]: Finished Initialisation For Mod: trading_floor
+[04Feb2026 15:16:51.588] [modloading-worker-0/INFO] [io.github.steveplays28.noisium.Noisium/]: Loading Noisium.
+[04Feb2026 15:16:51.669] [modloading-worker-0/INFO] [unilib/]: Disabling UniLib, as it is client side only.
+[04Feb2026 15:16:52.687] [modloading-worker-0/INFO] [Kiwi/Init]: Processing 3 KiwiModule annotations
+[04Feb2026 15:16:52.706] [modloading-worker-0/INFO] [Kiwi/]: Loading config from file: /workspaces/mc-server/config/companion-common.toml
+[04Feb2026 15:16:52.765] [modloading-worker-0/INFO] [Kiwi/]: Loading config from file: /workspaces/mc-server/config/snowrealmagic-common.toml
+[04Feb2026 15:16:55.748] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod armorstatues
+[04Feb2026 15:16:55.779] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod armorstatues
+[04Feb2026 15:16:56.059] [modloading-worker-0/INFO] [com.aizistral.nochatreports.NoChatReports/]: KONNICHIWA ZA WARUDO!
+[04Feb2026 15:16:56.059] [modloading-worker-0/INFO] [com.aizistral.nochatreports.NoChatReports/]: Default JVM text encoding is: UTF-8
+[04Feb2026 15:16:56.069] [modloading-worker-0/INFO] [com.aizistral.nochatreports.NoChatReports/]: Reading config file NoChatReports/NCR-Common.json...
+[04Feb2026 15:16:56.071] [modloading-worker-0/INFO] [com.aizistral.nochatreports.NoChatReports/]: Writing config file NoChatReports/NCR-Common.json...
+[04Feb2026 15:16:56.086] [modloading-worker-0/ERROR] [me.ichun.mods.ding.common.Ding/]: You are loading Ding on a server. Ding is a client only mod!
+[04Feb2026 15:16:56.652] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:56.653] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: figura, class org.figuramc.figura.forge.FiguraModForge
+java.lang.BootstrapMethodError: java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+	at org.figuramc.figura.forge.FiguraModForge.<init>(FiguraModForge.java:10) ~[figura-0.1.5+1.19.2-forge-mc.jar%23502!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.19.2-43.5.0.jar%23663!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:124) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.5.0.jar%2373!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 15 more
+[04Feb2026 15:16:56.736] [modloading-worker-0/WARN] [Visuality/]: Visuality is installed on a dedicated server, skip loading...
+[04Feb2026 15:16:56.739] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
+[04Feb2026 15:16:56.797] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:56.799] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: ryoamiclights, class org.thinkingstudio.ryoamiclights.forge.RyoamicLightsForge
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.5.0.jar%2373!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3375) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3580) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2756) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:73) ~[javafmllanguage-1.19.2-43.5.0.jar%23663!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:124) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[04Feb2026 15:16:57.000] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[04Feb2026 15:16:57.276] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:57.277] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: ktnilcks, class com.kirdow.itemlocks.forge.ItemLocksForge
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.5.0.jar%2373!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3375) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3580) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2756) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:73) ~[javafmllanguage-1.19.2-43.5.0.jar%23663!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:124) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[04Feb2026 15:16:57.303] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientPacketListener for invalid dist DEDICATED_SERVER
+[04Feb2026 15:16:57.304] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: connectedness, class me.pepperbell.continuity.client.ContinuityClient
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientPacketListener for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.5.0.jar%2373!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3375) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3580) ~[?:?]
+	at java.lang.Class.getConstructor(Class.java:2273) ~[?:?]
+	at net.minecraftforge.eventbus.api.EventListenerHelper.computeListenerList(EventListenerHelper.java:75) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.api.EventListenerHelper.lambda$getListenerListInternal$0(EventListenerHelper.java:56) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.LockHelper.computeIfAbsent(LockHelper.java:61) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.LockHelper.get(LockHelper.java:44) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.LockHelper.computeIfAbsent(LockHelper.java:39) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.api.EventListenerHelper.getListenerListInternal(EventListenerHelper.java:56) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.api.EventListenerHelper.getListenerList(EventListenerHelper.java:50) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.addToListeners(EventBus.java:276) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:252) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:244) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:199) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:193) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:187) ~[eventbus-6.0.3.jar%2352!/:?]
+	at me.pepperbell.continuity.client.util.biome.BiomeHolderManager.init(BiomeHolderManager.java:30) ~[connectedness-2.0.1a.jar%23436!/:?]
+	at me.pepperbell.continuity.client.ContinuityClient.<init>(ContinuityClient.java:68) ~[connectedness-2.0.1a.jar%23436!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.19.2-43.5.0.jar%23663!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:124) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[04Feb2026 15:16:57.359] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[04Feb2026 15:16:57.359] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[04Feb2026 15:16:57.359] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[04Feb2026 15:16:57.359] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[04Feb2026 15:16:57.359] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[04Feb2026 15:16:57.359] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[04Feb2026 15:16:57.359] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[04Feb2026 15:16:57.442] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.4.3 has initialized, ready to support your Create add-ons!
+[04Feb2026 15:16:57.738] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[04Feb2026 15:16:57.753] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[04Feb2026 15:16:57.753] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[04Feb2026 15:16:58.107] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
+[04Feb2026 15:16:58.428] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: entity_texture_features, class traben.entity_texture_features.forge.ETFClientForge
+java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing
+	at traben.entity_texture_features.forge.ETFClientForge.<init>(ETFClientForge.java:51) ~[entity_texture_features_forge_1.19.2-6.0.1.jar%23488!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.19.2-43.5.0.jar%23663!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:124) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[04Feb2026 15:16:58.513] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
+[04Feb2026 15:16:58.780] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[04Feb2026 15:16:58.781] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
+[04Feb2026 15:16:58.801] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: memorysettings.json
+[04Feb2026 15:16:58.937] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.64.
+[04Feb2026 15:16:59.078] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.5.0, for MC 1.19.2 with MCP 20220805.130853
+[04Feb2026 15:16:59.079] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.5.0 Initialized
+[04Feb2026 15:16:59.515] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[04Feb2026 15:16:59.562] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id findme:default/93a3df5fb37f371cb25c481f6e5b9323
+[04Feb2026 15:16:59.567] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id findme:default/b71e26ec071d32928d9fb5d2c3ec8a7a
+[04Feb2026 15:16:59.617] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[04Feb2026 15:16:59.660] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.BetterChannel$PartialPacketBegin
+[04Feb2026 15:16:59.763] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/61a49a35c5283c0aaa7b0dfea5b7a53a
+[04Feb2026 15:16:59.768] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.BetterChannel$PartialPacketBegin
+[04Feb2026 15:16:59.768] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.BetterChannel$PartialPacketData
+[04Feb2026 15:16:59.787] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/3dd73fd88be832559bc3a3c4a2e63b4a
+[04Feb2026 15:16:59.790] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.BetterChannel$PartialPacketData
+[04Feb2026 15:16:59.795] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.C2SPacket$InitTPSProfile
+[04Feb2026 15:16:59.809] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/b453c08f23b83b82b690c31bf8b2a45a
+[04Feb2026 15:16:59.813] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.C2SPacket$InitTPSProfile
+[04Feb2026 15:16:59.818] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.C2SPacket$RequestTeleport
+[04Feb2026 15:16:59.825] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/3a13df9e0b0a3290bb99252e1f8f68a2
+[04Feb2026 15:16:59.833] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.C2SPacket$RequestTeleport
+[04Feb2026 15:16:59.833] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.C2SPacket$RequestAvailability
+[04Feb2026 15:16:59.844] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/0c662822629034678f5a8f0e70375315
+[04Feb2026 15:16:59.844] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.C2SPacket$RequestAvailability
+[04Feb2026 15:16:59.848] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$ProfilingStarted
+[04Feb2026 15:16:59.856] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/2e815604a29b3a5cbfe0208e619d86c4
+[04Feb2026 15:16:59.859] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$ProfilingStarted
+[04Feb2026 15:16:59.860] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$ProfilingCompleted
+[04Feb2026 15:16:59.868] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/9ae83199b65a3768862799cc5e461a02
+[04Feb2026 15:16:59.875] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$ProfilingCompleted
+[04Feb2026 15:16:59.876] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$ProfilerInactive
+[04Feb2026 15:16:59.887] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/ae8dfae1238e312397aa53e9d14c45ca
+[04Feb2026 15:16:59.887] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$ProfilerInactive
+[04Feb2026 15:16:59.890] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$ProfilingResult
+[04Feb2026 15:16:59.897] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/3a94cae7336038df9152bcb7b4b94825
+[04Feb2026 15:16:59.898] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$ProfilingResult
+[04Feb2026 15:16:59.901] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$Availability
+[04Feb2026 15:16:59.915] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/c86a824e756d312396d1ba30e943e6aa
+[04Feb2026 15:16:59.917] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$Availability
+[04Feb2026 15:16:59.919] [modloading-worker-0/INFO] [ObservableNet/]: Registering class observable.net.S2CPacket$ConsiderProfiling
+[04Feb2026 15:16:59.932] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id minecraft:channel/observable/80ae5e04c32934dab1c17d27a88baf19
+[04Feb2026 15:16:59.932] [modloading-worker-0/INFO] [ObservableNet/]: Registered class observable.net.S2CPacket$ConsiderProfiling
+[04Feb2026 15:16:59.965] [modloading-worker-0/INFO] [Void Totem/]: Loading up Void Totem (Forge)
+[04Feb2026 15:17:00.092] [modloading-worker-0/INFO] [fallingtrees | Config/]: Successfully loaded config 'fallingtrees_common'
+[04Feb2026 15:17:00.105] [modloading-worker-0/INFO] [fallingtrees | Config/]: Successfully saved config 'fallingtrees_common'
+[04Feb2026 15:17:00.156] [modloading-worker-0/INFO] [unilib/]: Disabling CraftPresence, as it is client side only.
+[04Feb2026 15:17:00.170] [modloading-worker-0/INFO] [Bed Benefits/]: Loaded config file.
+[04Feb2026 15:17:00.170] [modloading-worker-0/INFO] [Bed Benefits/]: Saved config file.
+[04Feb2026 15:17:00.203] [modloading-worker-0/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[04Feb2026 15:17:00.222] [modloading-worker-0/INFO] [barista/]: Creating Barista directory :: /workspaces/mc-server/config/barista
+[04Feb2026 15:17:00.224] [modloading-worker-0/INFO] [barista/]: Creating Barista directory :: /workspaces/mc-server/config/barista/icon
+[04Feb2026 15:17:00.225] [modloading-worker-0/INFO] [barista/]: Checking if icon exists :: /workspaces/mc-server/config/barista/icon/icon.png
+[04Feb2026 15:17:00.225] [modloading-worker-0/INFO] [barista/]: Reading Barista bar config JSON file
+[04Feb2026 15:17:00.229] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/ewyboy/barista/cleint/Keybindings for invalid dist DEDICATED_SERVER
+[04Feb2026 15:17:00.233] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: barista, class com.ewyboy.barista.Barista
+java.lang.BootstrapMethodError: java.lang.RuntimeException: Attempted to load class com/ewyboy/barista/cleint/Keybindings for invalid dist DEDICATED_SERVER
+	at com.ewyboy.barista.Barista.<init>(Barista.java:36) ~[Barsita-1.19.2-1.1.2.jar%23398!/:1.1.2]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.19.2-43.5.0.jar%23663!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:124) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.RuntimeException: Attempted to load class com/ewyboy/barista/cleint/Keybindings for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.5.0.jar%2373!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 15 more
+[04Feb2026 15:17:00.246] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
+[04Feb2026 15:17:00.247] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
+[04Feb2026 15:17:00.247] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
+[04Feb2026 15:17:00.249] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
+[04Feb2026 15:17:00.249] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
+[04Feb2026 15:17:00.251] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
+[04Feb2026 15:17:00.251] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
+[04Feb2026 15:17:00.721] [Worker-Bootstrap-1/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 54 Datafixer optimizations took 494 milliseconds
+[04Feb2026 15:17:01.450] [modloading-worker-0/INFO] [Create: Interiors/]: Create: Interiors v0.5.6 initializing! Create version: 0.5.1h on platform: Forge
+[04Feb2026 15:17:01.720] [modloading-worker-0/INFO] [mixin/]: Mixing common.MixinServerStatus from nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus
+[04Feb2026 15:17:01.987] [modloading-worker-0/INFO] [net.mehvahdjukaar.every_compat.EveryCompat/]: Loaded EveryCompat Another Furniture Module
+[04Feb2026 15:17:01.987] [modloading-worker-0/INFO] [net.mehvahdjukaar.every_compat.EveryCompat/]: Loaded EveryCompat Friendsandfoes Module
+[04Feb2026 15:17:02.556] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[04Feb2026 15:17:02.779] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod magnumtorch
+[04Feb2026 15:17:02.821] [modloading-worker-0/INFO] [betterstats/]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
+[04Feb2026 15:17:02.822] [modloading-worker-0/INFO] [tcdcommons/]: Initializing 'TCDCommons API' as 'TCDCommonsServer'.
+[04Feb2026 15:17:02.863] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.VariantSelectorModule
+[04Feb2026 15:17:02.874] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.NarratorReadoutModule
+[04Feb2026 15:17:02.875] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.ClimateControlRemoverModule
+[04Feb2026 15:17:02.876] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentsBegoneModule
+[04Feb2026 15:17:02.878] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.GameNerfsModule
+[04Feb2026 15:17:02.881] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.SpawnerReplacerModule
+[04Feb2026 15:17:02.882] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.AdjustableChatModule
+[04Feb2026 15:17:02.885] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.VillagerRerollingReworkModule
+[04Feb2026 15:17:02.886] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.OverlayShaderModule
+[04Feb2026 15:17:02.886] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentPredicatesModule
+[04Feb2026 15:17:02.887] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantLaddersModule
+[04Feb2026 15:17:02.888] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantBookshelvesModule
+[04Feb2026 15:17:02.889] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.BambooBackportModule
+[04Feb2026 15:17:02.892] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CompressedBlocksModule
+[04Feb2026 15:17:02.893] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MorePottedPlantsModule
+[04Feb2026 15:17:02.895] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.DuskboundBlocksModule
+[04Feb2026 15:17:02.895] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.WoodenPostsModule
+[04Feb2026 15:17:02.896] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ThatchModule
+[04Feb2026 15:17:02.899] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreStoneVariantsModule
+[04Feb2026 15:17:02.901] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShearVinesModule
+[04Feb2026 15:17:02.905] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.NetherBrickFenceGateModule
+[04Feb2026 15:17:02.909] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GoldBarsModule
+[04Feb2026 15:17:02.910] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RopeModule
+[04Feb2026 15:17:02.919] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CelebratoryLampsModule
+[04Feb2026 15:17:02.919] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SoulSandstoneModule
+[04Feb2026 15:17:02.922] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantChestsModule
+[04Feb2026 15:17:02.929] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.LeafCarpetModule
+[04Feb2026 15:17:02.932] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.FramedGlassModule
+[04Feb2026 15:17:02.933] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalPlanksModule
+[04Feb2026 15:17:02.935] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantFurnacesModule
+[04Feb2026 15:17:02.938] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HedgesModule
+[04Feb2026 15:17:02.943] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HollowLogsModule
+[04Feb2026 15:17:02.945] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MidoriModule
+[04Feb2026 15:17:02.948] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RainbowLampsModule
+[04Feb2026 15:17:02.950] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalSlabsModule
+[04Feb2026 15:17:02.964] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShinglesModule
+[04Feb2026 15:17:02.972] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SturdyStoneModule
+[04Feb2026 15:17:02.973] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.StoolsModule
+[04Feb2026 15:17:02.974] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RawMetalBricksModule
+[04Feb2026 15:17:02.979] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreMudBlocksModule
+[04Feb2026 15:17:02.981] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GrateModule
+[04Feb2026 15:17:02.985] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.JapanesePaletteModule
+[04Feb2026 15:17:02.990] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreBrickTypesModule
+[04Feb2026 15:17:02.994] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GlassItemFrameModule
+[04Feb2026 15:17:03.003] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.IndustrialPaletteModule
+[04Feb2026 15:17:03.010] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NetherObsidianSpikesModule
+[04Feb2026 15:17:03.012] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.PermafrostModule
+[04Feb2026 15:17:03.018] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.FairyRingsModule
+[04Feb2026 15:17:03.025] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigStoneClustersModule
+[04Feb2026 15:17:03.031] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.SpiralSpiresModule
+[04Feb2026 15:17:03.050] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AncientWoodModule
+[04Feb2026 15:17:03.063] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NewStoneTypesModule
+[04Feb2026 15:17:03.096] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BlossomTreesModule
+[04Feb2026 15:17:03.102] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.GlimmeringWealdModule
+[04Feb2026 15:17:03.116] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.MonsterBoxModule
+[04Feb2026 15:17:03.121] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AzaleaWoodModule
+[04Feb2026 15:17:03.122] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NoMoreLavaPocketsModule
+[04Feb2026 15:17:03.124] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.CorundumModule
+[04Feb2026 15:17:03.131] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.ChorusVegetationModule
+[04Feb2026 15:17:03.136] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.CameraModule
+[04Feb2026 15:17:03.139] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ElytraIndicatorModule
+[04Feb2026 15:17:03.141] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ImprovedTooltipsModule
+[04Feb2026 15:17:03.142] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.GreenerGrassModule
+[04Feb2026 15:17:03.153] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BucketsShowInhabitantsModule
+[04Feb2026 15:17:03.156] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.SoulCandlesModule
+[04Feb2026 15:17:03.159] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.AutoWalkKeybindModule
+[04Feb2026 15:17:03.160] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.VariantAnimalTexturesModule
+[04Feb2026 15:17:03.161] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.MicrocraftingHelperModule
+[04Feb2026 15:17:03.162] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsesForCursesModule
+[04Feb2026 15:17:03.163] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.WoolShutsUpMinecartsModule
+[04Feb2026 15:17:03.164] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BackButtonKeybindModule
+[04Feb2026 15:17:03.165] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ChestSearchingModule
+[04Feb2026 15:17:03.167] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.LongRangePickBlockModule
+[04Feb2026 15:17:03.168] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsageTickerModule
+[04Feb2026 15:17:03.174] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.PistonsMoveTileEntitiesModule
+[04Feb2026 15:17:03.176] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.EnderWatcherModule
+[04Feb2026 15:17:03.177] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.RedstoneRandomizerModule
+[04Feb2026 15:17:03.180] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.FeedingTroughModule
+[04Feb2026 15:17:03.182] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.MetalButtonsModule
+[04Feb2026 15:17:03.183] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.IronRodModule
+[04Feb2026 15:17:03.186] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ObsidianPlateModule
+[04Feb2026 15:17:03.189] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChainsConnectBlocksModule
+[04Feb2026 15:17:03.190] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.GravisandModule
+[04Feb2026 15:17:03.191] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.JukeboxAutomationModule
+[04Feb2026 15:17:03.192] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.DispensersPlaceBlocksModule
+[04Feb2026 15:17:03.199] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChuteModule
+[04Feb2026 15:17:03.205] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.QuickArmorSwappingModule
+[04Feb2026 15:17:03.211] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ItemSharingModule
+[04Feb2026 15:17:03.219] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.AutomaticToolRestockModule
+[04Feb2026 15:17:03.225] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ExpandedItemInteractionsModule
+[04Feb2026 15:17:03.229] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.InventorySortingModule
+[04Feb2026 15:17:03.241] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.HotbarChangerModule
+[04Feb2026 15:17:03.242] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.EasyTransferingModule
+[04Feb2026 15:17:03.245] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GoldToolsHaveFortuneModule
+[04Feb2026 15:17:03.248] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule
+[04Feb2026 15:17:03.249] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.UtilityRecipesModule
+[04Feb2026 15:17:03.252] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PoisonPotatoUsageModule
+[04Feb2026 15:17:03.253] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.BetterElytraRocketModule
+[04Feb2026 15:17:03.256] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.RenewableSporeBlossomsModule
+[04Feb2026 15:17:03.256] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CoralOnCactusModule
+[04Feb2026 15:17:03.258] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GlassShardModule
+[04Feb2026 15:17:03.261] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PigLittersModule
+[04Feb2026 15:17:03.263] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CampfiresBoostElytraModule
+[04Feb2026 15:17:03.267] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DyeableItemFramesModule
+[04Feb2026 15:17:03.269] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlabsToBlocksModule
+[04Feb2026 15:17:03.271] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MapWashingModule
+[04Feb2026 15:17:03.276] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EnhancedLaddersModule
+[04Feb2026 15:17:03.278] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReacharoundPlacingModule
+[04Feb2026 15:17:03.281] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HorsesSwimModule
+[04Feb2026 15:17:03.281] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongeOnWaterPlacementModule
+[04Feb2026 15:17:03.282] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ArmedArmorStandsModule
+[04Feb2026 15:17:03.286] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DoubleDoorOpeningModule
+[04Feb2026 15:17:03.287] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ZombieVillagersOnNormalModule
+[04Feb2026 15:17:03.288] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HoeHarvestingModule
+[04Feb2026 15:17:03.290] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EmotesModule
+[04Feb2026 15:17:03.293] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlimesToMagmaCubesModule
+[04Feb2026 15:17:03.296] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SnowGolemPlayerHeadsModule
+[04Feb2026 15:17:03.298] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VexesDieWithTheirMastersModule
+[04Feb2026 15:17:03.302] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreNoteBlockSoundsModule
+[04Feb2026 15:17:03.303] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PatTheDogsModule
+[04Feb2026 15:17:03.310] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GrabChickensModule
+[04Feb2026 15:17:03.317] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreBannerLayersModule
+[04Feb2026 15:17:03.317] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReplaceScaffoldingModule
+[04Feb2026 15:17:03.321] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DiamondRepairModule
+[04Feb2026 15:17:03.323] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SaferCreaturesModule
+[04Feb2026 15:17:03.330] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.LockRotationModule
+[04Feb2026 15:17:03.333] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VillagersFollowEmeraldsModule
+[04Feb2026 15:17:03.334] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CompassesWorkEverywhereModule
+[04Feb2026 15:17:03.336] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.NoDurabilityOnCosmeticsModule
+[04Feb2026 15:17:03.342] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongesBetterModule
+[04Feb2026 15:17:03.343] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SignEditingModule
+[04Feb2026 15:17:03.347] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SimpleHarvestModule
+[04Feb2026 15:17:03.349] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DragonScalesModule
+[04Feb2026 15:17:03.352] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ShulkerPackingModule
+[04Feb2026 15:17:03.355] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FoxhoundModule
+[04Feb2026 15:17:03.359] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.WraithModule
+[04Feb2026 15:17:03.363] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.CrabsModule
+[04Feb2026 15:17:03.367] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ForgottenModule
+[04Feb2026 15:17:03.372] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ShibaModule
+[04Feb2026 15:17:03.375] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.StonelingsModule
+[04Feb2026 15:17:03.379] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ToretoiseModule
+[04Feb2026 15:17:03.382] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BeaconRedirectionModule
+[04Feb2026 15:17:03.383] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AmbientDiscsModule
+[04Feb2026 15:17:03.389] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PathfinderMapsModule
+[04Feb2026 15:17:03.396] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ColorRunesModule
+[04Feb2026 15:17:03.401] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PickarangModule
+[04Feb2026 15:17:03.409] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ParrotEggsModule
+[04Feb2026 15:17:03.410] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TrowelModule
+[04Feb2026 15:17:03.414] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AbacusModule
+[04Feb2026 15:17:03.417] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BottledCloudModule
+[04Feb2026 15:17:03.420] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TorchArrowModule
+[04Feb2026 15:17:03.423] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BundleRecipeModule
+[04Feb2026 15:17:03.428] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AncientTomesModule
+[04Feb2026 15:17:03.432] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.EndermoshMusicDiscModule
+[04Feb2026 15:17:03.433] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SeedPouchModule
+[04Feb2026 15:17:03.441] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SkullPikesModule
+[04Feb2026 15:17:03.447] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SlimeInABucketModule
+[04Feb2026 15:17:03.451] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.PipesModule
+[04Feb2026 15:17:03.471] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.BackpackModule
+[04Feb2026 15:17:03.479] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TinyPotatoModule
+[04Feb2026 15:17:03.488] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MatrixEnchantingModule
+[04Feb2026 15:17:03.495] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TotemOfHoldingModule
+[04Feb2026 15:17:03.501] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.CrateModule
+[04Feb2026 15:17:03.506] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MagnetsModule
+[04Feb2026 15:17:03.516] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONSTRUCT
+[04Feb2026 15:17:03.776] [modloading-worker-0/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[04Feb2026 15:17:03.780] [modloading-worker-0/INFO] [quark/]: Loading Module Ender Watcher
+[04Feb2026 15:17:03.780] [modloading-worker-0/INFO] [quark/]: Loading Module Redstone Randomizer
+[04Feb2026 15:17:03.780] [modloading-worker-0/INFO] [quark/]: Loading Module Feeding Trough
+[04Feb2026 15:17:03.785] [modloading-worker-0/INFO] [quark/]: Loading Module Metal Buttons
+[04Feb2026 15:17:03.785] [modloading-worker-0/INFO] [quark/]: Loading Module Iron Rod
+[04Feb2026 15:17:03.785] [modloading-worker-0/INFO] [quark/]: Loading Module Obsidian Plate
+[04Feb2026 15:17:03.785] [modloading-worker-0/INFO] [quark/]: Loading Module Chains Connect Blocks
+[04Feb2026 15:17:03.785] [modloading-worker-0/INFO] [quark/]: Loading Module Gravisand
+[04Feb2026 15:17:03.785] [modloading-worker-0/INFO] [quark/]: Loading Module Jukebox Automation
+[04Feb2026 15:17:03.789] [modloading-worker-0/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[04Feb2026 15:17:03.790] [modloading-worker-0/INFO] [quark/]: Loading Module Chute
+[04Feb2026 15:17:03.790] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Ladders
+[04Feb2026 15:17:03.790] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Bookshelves
+[04Feb2026 15:17:03.790] [modloading-worker-0/INFO] [quark/]: Loading Module Bamboo Backport
+[04Feb2026 15:17:03.791] [modloading-worker-0/INFO] [quark/]: Loading Module Compressed Blocks
+[04Feb2026 15:17:03.791] [modloading-worker-0/INFO] [quark/]: Loading Module More Potted Plants
+[04Feb2026 15:17:03.791] [modloading-worker-0/INFO] [quark/]: Loading Module Duskbound Blocks
+[04Feb2026 15:17:03.791] [modloading-worker-0/INFO] [quark/]: Loading Module Wooden Posts
+[04Feb2026 15:17:03.792] [modloading-worker-0/INFO] [quark/]: Loading Module Thatch
+[04Feb2026 15:17:03.792] [modloading-worker-0/INFO] [quark/]: Loading Module More Stone Variants
+[04Feb2026 15:17:03.792] [modloading-worker-0/INFO] [quark/]: Loading Module Shear Vines
+[04Feb2026 15:17:03.795] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[04Feb2026 15:17:03.795] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Bars
+[04Feb2026 15:17:03.795] [modloading-worker-0/INFO] [quark/]: Loading Module Rope
+[04Feb2026 15:17:03.795] [modloading-worker-0/INFO] [quark/]: Loading Module Celebratory Lamps
+[04Feb2026 15:17:03.795] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Sandstone
+[04Feb2026 15:17:03.795] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Chests
+[04Feb2026 15:17:03.795] [modloading-worker-0/INFO] [quark/]: Loading Module Leaf Carpet
+[04Feb2026 15:17:03.795] [modloading-worker-0/INFO] [quark/]: Loading Module Framed Glass
+[04Feb2026 15:17:03.795] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Planks
+[04Feb2026 15:17:03.796] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Furnaces
+[04Feb2026 15:17:03.796] [modloading-worker-0/INFO] [quark/]: Loading Module Hedges
+[04Feb2026 15:17:03.796] [modloading-worker-0/INFO] [quark/]: Loading Module Hollow Logs
+[04Feb2026 15:17:03.799] [modloading-worker-0/INFO] [quark/]: Loading Module Midori
+[04Feb2026 15:17:03.799] [modloading-worker-0/INFO] [quark/]: Loading Module Rainbow Lamps
+[04Feb2026 15:17:03.799] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Slabs
+[04Feb2026 15:17:03.799] [modloading-worker-0/INFO] [quark/]: Loading Module Shingles
+[04Feb2026 15:17:03.799] [modloading-worker-0/INFO] [quark/]: Loading Module Sturdy Stone
+[04Feb2026 15:17:03.799] [modloading-worker-0/INFO] [quark/]: Loading Module Stools
+[04Feb2026 15:17:03.805] [modloading-worker-0/INFO] [quark/]: Loading Module Raw Metal Bricks
+[04Feb2026 15:17:03.805] [modloading-worker-0/INFO] [quark/]: Loading Module More Mud Blocks
+[04Feb2026 15:17:03.805] [modloading-worker-0/INFO] [quark/]: Loading Module Grate
+[04Feb2026 15:17:03.805] [modloading-worker-0/INFO] [quark/]: Loading Module Japanese Palette
+[04Feb2026 15:17:03.805] [modloading-worker-0/INFO] [quark/]: Loading Module More Brick Types
+[04Feb2026 15:17:03.806] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Item Frame
+[04Feb2026 15:17:03.806] [modloading-worker-0/INFO] [quark/]: Loading Module Industrial Palette
+[04Feb2026 15:17:03.806] [modloading-worker-0/INFO] [quark/]: Loading Module Quick Armor Swapping
+[04Feb2026 15:17:03.809] [modloading-worker-0/INFO] [quark/]: Loading Module Item Sharing
+[04Feb2026 15:17:03.810] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Tool Restock
+[04Feb2026 15:17:03.815] [modloading-worker-0/INFO] [quark/]: Loading Module Expanded Item Interactions
+[04Feb2026 15:17:03.816] [modloading-worker-0/INFO] [quark/]: Loading Module Inventory Sorting
+[04Feb2026 15:17:03.818] [modloading-worker-0/INFO] [quark/]: Loading Module Hotbar Changer
+[04Feb2026 15:17:03.818] [modloading-worker-0/INFO] [quark/]: Loading Module Easy Transfering
+[04Feb2026 15:17:03.818] [modloading-worker-0/INFO] [quark/]: Loading Module Beacon Redirection
+[04Feb2026 15:17:03.818] [modloading-worker-0/INFO] [quark/]: Loading Module Ambient Discs
+[04Feb2026 15:17:03.822] [modloading-worker-0/INFO] [quark/]: Loading Module Pathfinder Maps
+[04Feb2026 15:17:03.830] [modloading-worker-0/INFO] [quark/]: Loading Module Color Runes
+[04Feb2026 15:17:03.835] [modloading-worker-0/INFO] [quark/]: Loading Module Pickarang
+[04Feb2026 15:17:03.837] [modloading-worker-0/INFO] [quark/]: Loading Module Parrot Eggs
+[04Feb2026 15:17:03.840] [modloading-worker-0/INFO] [quark/]: Loading Module Trowel
+[04Feb2026 15:17:03.840] [modloading-worker-0/INFO] [quark/]: Loading Module Abacus
+[04Feb2026 15:17:03.844] [modloading-worker-0/INFO] [quark/]: Loading Module Bottled Cloud
+[04Feb2026 15:17:03.845] [modloading-worker-0/INFO] [quark/]: Loading Module Torch Arrow
+[04Feb2026 15:17:03.847] [modloading-worker-0/INFO] [quark/]: Loading Module Bundle Recipe
+[04Feb2026 15:17:03.847] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Tomes
+[04Feb2026 15:17:03.855] [modloading-worker-0/INFO] [quark/]: Loading Module Endermosh Music Disc
+[04Feb2026 15:17:03.856] [modloading-worker-0/INFO] [quark/]: Loading Module Seed Pouch
+[04Feb2026 15:17:03.860] [modloading-worker-0/INFO] [quark/]: Loading Module Skull Pikes
+[04Feb2026 15:17:03.862] [modloading-worker-0/INFO] [quark/]: Loading Module Slime In A Bucket
+[04Feb2026 15:17:03.865] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Tools Have Fortune
+[04Feb2026 15:17:03.867] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[04Feb2026 15:17:03.868] [modloading-worker-0/INFO] [quark/]: Loading Module Utility Recipes
+[04Feb2026 15:17:03.871] [modloading-worker-0/INFO] [quark/]: Loading Module Poison Potato Usage
+[04Feb2026 15:17:03.874] [modloading-worker-0/INFO] [quark/]: Loading Module Better Elytra Rocket
+[04Feb2026 15:17:03.877] [modloading-worker-0/INFO] [quark/]: Loading Module Renewable Spore Blossoms
+[04Feb2026 15:17:03.880] [modloading-worker-0/INFO] [quark/]: Loading Module Coral On Cactus
+[04Feb2026 15:17:03.881] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Shard
+[04Feb2026 15:17:03.882] [modloading-worker-0/INFO] [quark/]: Loading Module Pig Litters
+[04Feb2026 15:17:03.888] [modloading-worker-0/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[04Feb2026 15:17:03.889] [modloading-worker-0/INFO] [quark/]: Loading Module Dyeable Item Frames
+[04Feb2026 15:17:03.894] [modloading-worker-0/INFO] [quark/]: Loading Module Slabs To Blocks
+[04Feb2026 15:17:03.901] [modloading-worker-0/INFO] [quark/]: Loading Module Map Washing
+[04Feb2026 15:17:03.904] [modloading-worker-0/INFO] [quark/]: Loading Module Enhanced Ladders
+[04Feb2026 15:17:03.905] [modloading-worker-0/INFO] [quark/]: Loading Module Reacharound Placing
+[04Feb2026 15:17:03.906] [modloading-worker-0/INFO] [quark/]: Loading Module Horses Swim
+[04Feb2026 15:17:03.910] [modloading-worker-0/INFO] [quark/]: Loading Module Sponge On Water Placement
+[04Feb2026 15:17:03.911] [modloading-worker-0/INFO] [quark/]: Loading Module Armed Armor Stands
+[04Feb2026 15:17:03.914] [modloading-worker-0/INFO] [quark/]: Loading Module Double Door Opening
+[04Feb2026 15:17:03.916] [modloading-worker-0/INFO] [quark/]: Loading Module Zombie Villagers On Normal
+[04Feb2026 15:17:03.920] [modloading-worker-0/INFO] [quark/]: Loading Module Hoe Harvesting
+[04Feb2026 15:17:03.922] [modloading-worker-0/INFO] [quark/]: Loading Module Emotes
+[04Feb2026 15:17:03.923] [modloading-worker-0/INFO] [quark/]: Loading Module Slimes To Magma Cubes
+[04Feb2026 15:17:03.924] [modloading-worker-0/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[04Feb2026 15:17:03.927] [modloading-worker-0/INFO] [quark/]: Loading Module Vexes Die With Their Masters
+[04Feb2026 15:17:03.928] [modloading-worker-0/INFO] [quark/]: Loading Module More Note Block Sounds
+[04Feb2026 15:17:03.929] [modloading-worker-0/INFO] [quark/]: Loading Module Pat The Dogs
+[04Feb2026 15:17:03.935] [modloading-worker-0/INFO] [quark/]: Loading Module Grab Chickens
+[04Feb2026 15:17:03.938] [modloading-worker-0/INFO] [quark/]: Loading Module More Banner Layers
+[04Feb2026 15:17:03.938] [modloading-worker-0/INFO] [quark/]: Loading Module Replace Scaffolding
+[04Feb2026 15:17:03.939] [modloading-worker-0/INFO] [quark/]: Loading Module Diamond Repair
+[04Feb2026 15:17:03.939] [modloading-worker-0/INFO] [quark/]: Loading Module Safer Creatures
+[04Feb2026 15:17:03.942] [modloading-worker-0/INFO] [quark/]: Loading Module Lock Rotation
+[04Feb2026 15:17:03.944] [modloading-worker-0/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[04Feb2026 15:17:03.946] [modloading-worker-0/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[04Feb2026 15:17:03.948] [modloading-worker-0/INFO] [quark/]: Loading Module No Durability On Cosmetics
+[04Feb2026 15:17:03.949] [modloading-worker-0/INFO] [quark/]: Loading Module Sponges Better
+[04Feb2026 15:17:03.950] [modloading-worker-0/INFO] [quark/]: Loading Module Sign Editing
+[04Feb2026 15:17:03.951] [modloading-worker-0/INFO] [quark/]: Loading Module Simple Harvest
+[04Feb2026 15:17:03.953] [modloading-worker-0/INFO] [quark/]: Loading Module Dragon Scales
+[04Feb2026 15:17:03.956] [modloading-worker-0/INFO] [quark/]: Loading Module Shulker Packing
+[04Feb2026 15:17:03.959] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[04Feb2026 15:17:03.959] [modloading-worker-0/INFO] [quark/]: Loading Module Permafrost
+[04Feb2026 15:17:03.960] [modloading-worker-0/INFO] [quark/]: Loading Module Fairy Rings
+[04Feb2026 15:17:03.960] [modloading-worker-0/INFO] [quark/]: Loading Module Big Stone Clusters
+[04Feb2026 15:17:03.961] [modloading-worker-0/INFO] [quark/]: Loading Module Spiral Spires
+[04Feb2026 15:17:03.964] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Wood
+[04Feb2026 15:17:03.965] [modloading-worker-0/INFO] [quark/]: Loading Module New Stone Types
+[04Feb2026 15:17:03.968] [modloading-worker-0/INFO] [quark/]: Loading Module Blossom Trees
+[04Feb2026 15:17:03.970] [modloading-worker-0/INFO] [quark/]: Loading Module Glimmering Weald
+[04Feb2026 15:17:03.971] [modloading-worker-0/INFO] [quark/]: Loading Module Monster Box
+[04Feb2026 15:17:03.972] [modloading-worker-0/INFO] [quark/]: Loading Module Azalea Wood
+[04Feb2026 15:17:03.972] [modloading-worker-0/INFO] [quark/]: Loading Module No More Lava Pockets
+[04Feb2026 15:17:03.972] [modloading-worker-0/INFO] [quark/]: Loading Module Corundum
+[04Feb2026 15:17:03.972] [modloading-worker-0/INFO] [quark/]: Loading Module Chorus Vegetation
+[04Feb2026 15:17:03.973] [modloading-worker-0/INFO] [quark/]: Loading Module Foxhound
+[04Feb2026 15:17:03.981] [modloading-worker-0/INFO] [quark/]: Loading Module Wraith
+[04Feb2026 15:17:03.983] [modloading-worker-0/INFO] [quark/]: Loading Module Crabs
+[04Feb2026 15:17:03.989] [modloading-worker-0/INFO] [quark/]: Loading Module Forgotten
+[04Feb2026 15:17:03.992] [modloading-worker-0/INFO] [quark/]: Loading Module Shiba
+[04Feb2026 15:17:03.993] [modloading-worker-0/INFO] [quark/]: Loading Module Stonelings
+[04Feb2026 15:17:03.998] [modloading-worker-0/INFO] [quark/]: Loading Module Toretoise
+[04Feb2026 15:17:04.004] [modloading-worker-0/INFO] [quark/]: Loading Module Camera
+[04Feb2026 15:17:04.004] [modloading-worker-0/INFO] [quark/]: Loading Module Elytra Indicator
+[04Feb2026 15:17:04.004] [modloading-worker-0/INFO] [quark/]: Loading Module Improved Tooltips
+[04Feb2026 15:17:04.005] [modloading-worker-0/INFO] [quark/]: Loading Module Greener Grass
+[04Feb2026 15:17:04.006] [modloading-worker-0/INFO] [quark/]: Loading Module Buckets Show Inhabitants
+[04Feb2026 15:17:04.007] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Candles
+[04Feb2026 15:17:04.007] [modloading-worker-0/INFO] [quark/]: Loading Module Auto Walk Keybind
+[04Feb2026 15:17:04.007] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Animal Textures
+[04Feb2026 15:17:04.007] [modloading-worker-0/INFO] [quark/]: Loading Module Microcrafting Helper
+[04Feb2026 15:17:04.008] [modloading-worker-0/INFO] [quark/]: Loading Module Uses For Curses
+[04Feb2026 15:17:04.008] [modloading-worker-0/INFO] [quark/]: Loading Module Wool Shuts Up Minecarts
+[04Feb2026 15:17:04.008] [modloading-worker-0/INFO] [quark/]: Loading Module Back Button Keybind
+[04Feb2026 15:17:04.008] [modloading-worker-0/INFO] [quark/]: Loading Module Chest Searching
+[04Feb2026 15:17:04.008] [modloading-worker-0/INFO] [quark/]: Loading Module Long Range Pick Block
+[04Feb2026 15:17:04.009] [modloading-worker-0/INFO] [quark/]: Loading Module Usage Ticker
+[04Feb2026 15:17:04.009] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Selector
+[04Feb2026 15:17:04.009] [modloading-worker-0/INFO] [quark/]: Loading Module Narrator Readout
+[04Feb2026 15:17:04.010] [modloading-worker-0/INFO] [quark/]: Loading Module Climate Control Remover
+[04Feb2026 15:17:04.011] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantments Begone
+[04Feb2026 15:17:04.011] [modloading-worker-0/INFO] [quark/]: Loading Module Game Nerfs
+[04Feb2026 15:17:04.011] [modloading-worker-0/INFO] [quark/]: Loading Module Spawner Replacer
+[04Feb2026 15:17:04.011] [modloading-worker-0/INFO] [quark/]: Loading Module Adjustable Chat
+[04Feb2026 15:17:04.011] [modloading-worker-0/INFO] [quark/]: Loading Module Villager Rerolling Rework
+[04Feb2026 15:17:04.012] [modloading-worker-0/INFO] [quark/]: Loading Module Overlay Shader
+[04Feb2026 15:17:04.013] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantment Predicates
+[04Feb2026 15:17:04.015] [modloading-worker-0/INFO] [quark/]: Loading Module Pipes
+[04Feb2026 15:17:04.015] [modloading-worker-0/INFO] [quark/]: Loading Module Backpack
+[04Feb2026 15:17:04.016] [modloading-worker-0/INFO] [quark/]: Loading Module Tiny Potato
+[04Feb2026 15:17:04.016] [modloading-worker-0/INFO] [quark/]: Loading Module Matrix Enchanting
+[04Feb2026 15:17:04.016] [modloading-worker-0/INFO] [quark/]: Loading Module Totem Of Holding
+[04Feb2026 15:17:04.016] [modloading-worker-0/INFO] [quark/]: Loading Module Crate
+[04Feb2026 15:17:04.016] [modloading-worker-0/INFO] [quark/]: Loading Module Magnets
+[04Feb2026 15:17:04.279] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.7.0 in server-side mode on FORGE!
+[04Feb2026 15:17:04.297] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod bettertridents
+[04Feb2026 15:17:04.327] [modloading-worker-0/INFO] [me.treyruffy.betterf3.BetterF3Forge/]: [BetterF3] Starting...
+[04Feb2026 15:17:04.328] [modloading-worker-0/WARN] [me.treyruffy.betterf3.BetterF3Forge/]: [BetterF3] Not supported on dedicated server!
+[04Feb2026 15:17:04.334] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[04Feb2026 15:17:04.338] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: screenshot_viewer, class io.github.lgatodu47.screenshot_viewer.ScreenshotViewer
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.5.0.jar%2373!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3375) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3580) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2756) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:73) ~[javafmllanguage-1.19.2-43.5.0.jar%23663!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:124) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[04Feb2026 15:17:04.605] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 9 errors found
+[04Feb2026 15:17:04.777] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 6382a00a-ae4a-4738-ac42-53b61e33d25d
+[04Feb2026 15:17:04.778] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2026-02-04_15.17.04-fml.txt
+[04Feb2026 15:17:04.806] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID a125377b-59f8-4980-988b-abcb0853a6a6
+[04Feb2026 15:17:04.859] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Zume (zume) has failed to load correctly
+§7java.lang.NoClassDefFoundError: net/minecraft/client/CameraType,
+	Reforgium (reforgium) has failed to load correctly
+§7java.lang.ExceptionInInitializerError: null,
+	Figura (figura) has failed to load correctly
+§7java.lang.BootstrapMethodError: java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER,
+	RyoamicLights (ryoamiclights) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+	Connectedness (connectedness) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientPacketListener for invalid dist DEDICATED_SERVER,
+	ItemLocks (ktnilcks) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+	Entity Texture Features (entity_texture_features) has failed to load correctly
+§7java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing,
+	Barista (barista) has failed to load correctly
+§7java.lang.BootstrapMethodError: java.lang.RuntimeException: Attempted to load class com/ewyboy/barista/cleint/Keybindings for invalid dist DEDICATED_SERVER,
+	Screenshot Viewer (screenshot_viewer) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:243) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$24(ModLoader.java:208) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:208) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:185) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185) ~[fmlcore-1.19.2-43.5.0.jar%23662!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19.2-43.5.0-universal.jar%23666!/:?]
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23661!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.5.0.jar%2373!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
